@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# FastFoodAPI
+
+# Please note its not uploaded in the android studio or in IOS because of the lack of space in my asset.
+Please use the web application for now.
+
+# How to run
+1. Setup your MySQL database like this (I am using TablePlus)
+
+![image](https://github.com/dev-reas/FastFoodAPI/assets/70940934/a6463c16-d6ef-441c-a05f-51cea1bd5be5)
+
+2. Change the user and password based on your local. Also change the DB_USERNAME and DB_PASSWORD too in your local.
+3. After that, run the php artisan migrate:fresh --seed in your command line to insert the data in the database.
+4. Then run php artisan serve --host=your_ip_address --port=8000
+
+>>>>>>> 4be8c0cbdc1d2f3c7656487137d3b14dbda847d4
